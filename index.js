@@ -30,19 +30,19 @@ app.use(requestLogger);
 let notes = [
   {
     id: 1,
-    content: "HTML is easy",
+    content: "Santatra Bogosy",
     date: "2022-05-30T17:30:31.098Z",
     important: true,
   },
   {
     id: 2,
-    content: "Browser can execute only Javascript",
+    content: "Amazing Santa",
     date: "2022-05-30T18:39:34.091Z",
     important: false,
   },
   {
     id: 3,
-    content: "GET and POST are the most important methods of HTTP protocol",
+    content: "Popi malatsaka",
     date: "2022-05-30T19:20:14.298Z",
     important: true,
   },
