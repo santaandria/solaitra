@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 
+app.use(express.static("build")); //returns the static file in the build folder (index.html) when a GET method to the backend address is sent
 app.use(cors());
 
 /*
