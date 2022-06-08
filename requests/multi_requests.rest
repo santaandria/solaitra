@@ -5,6 +5,18 @@ POST http://localhost:3001/api/notes
 Content-Type: application/json
 
 {
-    "content": "This is a POST request",
+    "content": "This is a new POST request",
+    "important": false
+}
+
+###
+DELETE http://localhost:3001/api/notes/62a124356b690b9d670bfc92
+
+###
+PUT http://localhost:3001/api/notes/62a11db175855c8ffb21208a
+Content-Type: application/json
+
+{
+    "content": "This is the updated note",
     "important": false
 }
