@@ -70,7 +70,7 @@ app.delete("/api/notes/:id", (request, response, next) => {
     .catch((error) => next(error));
 });
 
-app.post("/api/notes", (request, response) => {
+app.post("/api/notes", (request, response, next) => {
   const body = request.body;
 
   const note = new Note({
