@@ -34,6 +34,7 @@ notesRouter.post('/', (request, response, next) => {
   note
     .save()
     .then((savedNote) => {
+      request.io.emit('newMessage', savedNote);
       response.json(savedNote);
     })
     .catch((error) => next(error));
